@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "[\"~/miniconda3/envs/qwen3-tts/lib/python3.12/site-packages\"]"
+    ]
+}
