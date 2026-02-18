@@ -63,8 +63,8 @@ if 'design_model' in locals():
     del design_model
 
 # 2. Crucial: Clear any 'ghost' references in the Python Garbage Collector
-for _ in range(3): # Running it a few times ensures nested tensors are caught
-    gc.collect()
+#for _ in range(3): # Running it a few times ensures nested tensors are caught
+gc.collect()
 
 # 3. Force the GPU to release the memory back to the OS
 if torch.cuda.is_available():
