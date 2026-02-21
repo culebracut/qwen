@@ -1,3 +1,8 @@
 models/
-src/__pycache__/
+data/cache/
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
 
+src/utilities/__pycache__/streaming_audio_writer.cpython-312.pyc
