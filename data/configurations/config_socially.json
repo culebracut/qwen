@@ -1,9 +1,9 @@
 {
   "project_metadata": {
-    "script_path": "/workspace/qwen/data/scripts/hamlet.txt",
-    "output_path": "/workspace/audio/output/hamlet.wav",
-    "model_path":"/workspace/qwen/models/Qwen3-TTS-12Hz-1.7B-Base",
-    "cache_path":"/workspace/qwen/data/cache",
+    "script_path": "/data/qwen/data/scripts/hamlet_with_socially_inept.txt",
+    "output_path": "/data/qwen/data/audio/output/socially_hamlet.wav",
+    "model_path":  "/data/qwen/models/Qwen3-TTS-12Hz-1.7B-Base",
+    "cache_path":  "/data/qwen/data/cache",
     "default_streaming_rate":"24000",
     "seed": 42,
     "temp": 0.8
@@ -18,7 +18,7 @@
           "Solemn, formal, dignified and rhythmic",
           "Authoritative Historical Narration"
       ],
-      "ref_audio": "/workspace/audio/input/hindu/hindu_woman.wav",
+      "ref_audio": "/data/qwen/data/audio//input/hindu/hindu_woman.wav",
       "ref_text": "She used to go for the concerts, traveling in a third class. If it was an overnight journey, she didn't sleep. And as I grew, she started taking with me along, a little bit of assistance from my side, playing the tantra and that sort of a thing. And I do remember that I used to keep my head on my mother's shoulder and I used to just travel throughout the night. And then that was a time when our D"
       },
       {
@@ -32,7 +32,7 @@
         "Very Slow, punctuated delivery.",
         "A weary, authoritative grit."
       ],
-      "ref_audio": "/workspace/audio/input/hindu/hindu_man.wav",
+      "ref_audio": "/data/qwen/data/audio//input/hindu/hindu_man.wav",
       "ref_text": "as the daughter of the great vocalist, Mogubai Kurdikar. Your father passed away when you were very small and your mother must have had to endure a great deal of hardship to bring you up and your family. What were those early days of struggle like?"
       },
       {
@@ -46,7 +46,7 @@
         "Slow, punctuated delivery.",
         "A weary, authoritative grit."
       ],
-      "ref_audio": "/workspace/audio/input/JohnWayne/JW.wav",
+      "ref_audio": "/data/qwen/data/audio//input/JohnWayne/JW.wav",
       "ref_text": "This that the White Man calls charity is a fine thing for widows and orphans, but no warrior can accept it, for if he does, he is no longer a man and when he is no longer a man, he is nothing and better off dead."
       },
       {
@@ -58,7 +58,7 @@
         "Excited.",
         "A slight cultural inflection with clear authority."
       ],
-      "ref_audio":"/workspace/audio/input/socially_inept/nikita.wav",
+      "ref_audio":"/data/qwen/data/audio//input/socially_inept/nikita.wav",
       "ref_text": "do right now is without speaking to each other at all, we need you to self-organize."
       },
       {
@@ -70,7 +70,7 @@
         "A calm, natural English narration.",
         "A slight cultural inflection with clear authority."
       ],
-      "ref_audio":"/workspace/audio/input/marx_brothers/groucho.wav",
+      "ref_audio":"/data/qwen/data/audio//input/marx_brothers/groucho.wav",
       "ref_text": "Hello? What's that, sir? You've been up in your room three and a half hours and your trunks haven't arrived? Well, put your pants on. Nobody will know the difference."
       },
       {
@@ -82,7 +82,7 @@
         "Sarcasm.",
         "Nasal emphasis."
       ],
-      "ref_audio": "/workspace/audio/input/china/female-chinese-mandarin.wav",
+      "ref_audio": "/data/qwen/data/audio//input/china/female-chinese-mandarin.wav",
       "ref_text": "几天在浴室书写时，面对着镜子，突然发现左上角的头发闪过一丝荧光。是窗外照进来的阳光反射吗？我用梳子拨了拨，荧光还停在同一个地方，凑近镜子一看，原来是一根白头发。我用手翻翻头发，想看看是不是还有其他的白发，或是半白半黑的头发。我现在像是在干草堆里找银针似的拨弄着发丝，没有，它是唯一的一根。这是头一回发现自己长了根白发，我好奇地用手挑起它，透过镜子仔细观察。这根头发看起来有点像是龙口粉丝般浅白透明。"
       },
       {
@@ -94,7 +94,7 @@
         "Smooth.",
         "Informative."
       ],
-      "ref_audio": "/workspace/audio/input/socially_inept/jesse.wav",
+      "ref_audio": "/data/qwen/data/audio//input/socially_inept/jesse.wav",
       "ref_text": "by that morning if I do tongue twisters. So you say difficult things to say, red leather yellow leather, red leather yellow leather, red leather yellow leather. The A, the B, the C, the D, the F, the G, the H, the I, the G. You do stuff like that. I do that for quite a long time, 15, 20 minutes. I do a basic vocal exercise. Like, just like that. Just to warm up my..."
       },
       {
@@ -106,7 +106,7 @@
         "Excited.",
         "A slight cultural inflection with clear authority."
       ],
-      "ref_audio": "/workspace/audio/input/socially_inept/austin.wav",
+      "ref_audio": "/data/qwen/data/audio//input/socially_inept/austin.wav",
       "ref_text": "You can take my ears, but you cannot take my liberty. They want to cut off my ears like the Taliban, but what they don't know is my ears can grow back. Like SpongeBob through budding, by the way. Hit me with your best shot, why don't you? Because if that's the best you got, you're a loser. You're such a loser, you missed so bigly, by the way. You had a big opportunity, you could have made my head blow up on TV, but you didn't do that, did you?"
       }
     ],

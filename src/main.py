@@ -8,7 +8,7 @@ import sounddevice as sd
 
 
 # 1. Load your config and your script
-metadata = ConfigLoader("/workspace/qwen/data/configurations/config_hamlet.json")
+metadata = ConfigLoader("/data/qwen/data/configurations/config_socially.json")
 
 # Initialization 
 core = QwenModelContainer(metadata.model_path)
