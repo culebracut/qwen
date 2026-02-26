@@ -1,7 +1,7 @@
 {
   "project_metadata": {
-    "script_path": "/data/qwen/data/scripts/hamlet_with_socially_inept.txt",
-    "output_path": "/data/qwen/data/audio/output/socially_hamlet.wav",
+    "script_path": "/data/qwen/data/scripts/inept_philadelphia.txt",
+    "output_path": "/data/qwen/data/audio/output/socially_philadelphia.wav",
     "model_path":  "/data/qwen/models/Qwen3-TTS-12Hz-1.7B-Base",
     "cache_path":  "/data/qwen/data/cache",
     "default_streaming_rate":"24000",
@@ -58,7 +58,7 @@
         "Excited.",
         "A slight cultural inflection with clear authority."
       ],
-      "ref_audio":"/data/qwen/data/audio//input/socially_inept/nikita.wav",
+      "ref_audio":"/data/qwen/data/audio//input/socially_inept/nikita2.wav",
       "ref_text": "do right now is without speaking to each other at all, we need you to self-organize."
       },
       {
@@ -94,8 +94,8 @@
         "Smooth.",
         "Informative."
       ],
-      "ref_audio": "/data/qwen/data/audio//input/socially_inept/jesse.wav",
-      "ref_text": "by that morning if I do tongue twisters. So you say difficult things to say, red leather yellow leather, red leather yellow leather, red leather yellow leather. The A, the B, the C, the D, the F, the G, the H, the I, the G. You do stuff like that. I do that for quite a long time, 15, 20 minutes. I do a basic vocal exercise. Like, just like that. Just to warm up my..."
+      "ref_audio": "/data/qwen/data/audio//input/socially_inept/jesse2.wav",
+      "ref_text": " I'm going to have to disagree with some of the points my fellow whale has made. I think a toddler could do it in a lazy Sunday afternoon. A large task, a difficult task, an arduous task, is dreaming up all the fun colors, shapes, and clothes and kind of hairstyles and designs. A princess may take on. Don't think you have an army of toddlers at the ready. If you need an army of toddlers, if you acquire an army of toddlers, a slew of toddlers? Mm-hmm. I think this idea may be able to come to fruition, but as it stands, I see no toddlers. I see no factory of toddlers. I'm going to have to say I'm out."
       },
       {
       "id":"austin",

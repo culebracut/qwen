@@ -15,6 +15,42 @@
             "env": {
                 "PYTEST_ADDOPTS": "--no-cov"
             }
+        },
+        {
+            "name": "Python Debugger: prepare data",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/train/prepare_data.py",
+              "args": [
+                "--device", "cuda:0",
+                "--tokenizer_model_path", "/data/qwen/models/Qwen3-TTS-Tokenizer-12Hz",
+                "--input_jsonl", "/data/qwen/src/train/train_raw.jsonl",
+                "--output_jsonl", "/data/qwen/src/train/train_with_codes.jsonl"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Python: Qwen3 Fine-Tune (SFT)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/train/sft_12hz.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--init_model_path", "/data/qwen/models/Qwen3-TTS-12Hz-1.7B-Base",
+                "--output_model_path", "/data/qwen/src/train/output",
+                "--train_jsonl", "/data/qwen/src/train/train_with_codes.jsonl",
+                "--batch_size", "4",
+                "--lr", "2e-6",
+                "--num_epochs", "10",
+                "--speaker_name", "Brit"
+            ],
+            "env": {
+                "PYTORCH_ALLOC_CONF": "expandable_segments:True",
+                "CUDA_VISIBLE_DEVICES": "0",
+                "PYTHONPATH": "${workspaceFolder}"
+            }
         }
     ]
 }
