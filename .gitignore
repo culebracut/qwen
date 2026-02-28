@@ -1,8 +1,9 @@
-models/
 data/cache/
 # Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
-
-
+#
+.venv/
+output.wav
+src/temp.py

@@ -1,4 +1,5 @@
 # Core Model Stack
+#flash-attn>=2.5.8  # Add this for high-speed inference
 torch --index-url https://download.pytorch.org
 torchaudio --index-url https://download.pytorch.org
 # Pinned to avoid missing 'check_model_inputs' in v5.x
