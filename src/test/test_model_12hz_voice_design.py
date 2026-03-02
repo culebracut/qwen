@@ -23,15 +23,12 @@ from qwen_tts import Qwen3TTSModel
 def main():
     device = "cuda:0"
     MODEL_PATH = "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
-    #MODEL_PATH = "/home/system/.cache/huggingface/hub/models--Qwen--Qwen3-TTS-12Hz-1.7B-VoiceDesign/snapshots/5ecdb67327fd37bb2e042aab12ff7391903235d3"
 
     tts = Qwen3TTSModel.from_pretrained(
         MODEL_PATH,
         device_map=device,
         dtype=torch.bfloat16,
         attn_implementation="flash_attention_2",
-        #cache_dir="~/.cache/huggingface/hub",
-        #local_files_only=True
     )
 
     # -------- Single --------
