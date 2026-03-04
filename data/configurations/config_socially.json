@@ -1,12 +1,12 @@
 {
   "project_metadata": {
-    "script_path": "/data/qwen/data/scripts/inept_philadelphia.txt",
-    "output_path": "/data/qwen/data/audio/output/socially_philadelphia.wav",
-    "model_path":  "/data/qwen/models/Qwen3-TTS-12Hz-1.7B-Base",
-    "cache_path":  "/data/qwen/data/cache",
-    "default_streaming_rate":"24000",
     "seed": 42,
-    "temp": 0.8
+    "temp": 0.8,
+    "default_streaming_rate":"24000",
+    "model_path":  "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "script_path": "data/scripts/inept_philadelphia.txt",
+    "output_path": "data/audio/output/socially_philadelphia.wav",
+    "cache_path":  "data/cache"
   },
   "personas": [
       {
